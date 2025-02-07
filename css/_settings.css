@@ -1,32 +1,32 @@
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .page {
-	line-height: 1.5;
+  line-height: 1.5;
 }
 
 .page__body {
-	font-family: var(--font-family);
+  font-family: var(--font-family);
 }
 
 .container {
-	margin: 0 auto;
-	max-width: calc(var(--container-width) + (var(--container-offset) * 2));
-	padding: 0 var(--container-offset);
+  margin: 0 auto;
+  max-width: calc(var(--container-width) + (var(--container-offset) * 2));
+  padding: 0 var(--container-offset);
 }
 
 .list-reset {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .btn-reset {
-	border: 0;
-	padding: 0;
-	background: transparent;
-	cursor: pointer;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
 }
